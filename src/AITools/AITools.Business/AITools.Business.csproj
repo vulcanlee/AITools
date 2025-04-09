@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="14.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AITools.DataAccess\AITools.DataAccess.csproj" />
+		<ProjectReference Include="..\AITools.DataModel\AITools.DataModel.csproj" />
+		<ProjectReference Include="..\AITools.Dto\AITools.Dto.csproj" />
+	</ItemGroup>
+
+</Project>

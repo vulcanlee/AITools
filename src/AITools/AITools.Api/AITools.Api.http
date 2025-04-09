@@ -1,0 +1,5 @@
+﻿@AITools.Api_HostAddress = https://localhost:7079
+
+GET {{AITools.Api_HostAddress}}/API/sample
+
+###
